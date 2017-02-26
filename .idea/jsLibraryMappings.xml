@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{STEP_JS_3/node_modules}" />
+    <file url="PROJECT" libraries="{STEP_JS_3/node_modules, node-DefinitelyTyped, string-DefinitelyTyped, string-template-DefinitelyTyped}" />
+    <includedPredefinedLibrary name="ECMAScript 6" />
+    <includedPredefinedLibrary name="Node.js Core" />
+    <includedPredefinedLibrary name="WebGL" />
+  </component>
+</project>

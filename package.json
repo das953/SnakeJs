@@ -1,0 +1,16 @@
+{
+  "name": "step_3",
+  "version": "1.0.0",
+  "description": "snake",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "das953",
+  "license": "ISC",
+  "dependencies": {
+    "doubly-linked-list-js": "^0.1.8",
+    "jquery": "^3.1.1",
+    "webpack": "^2.2.1"
+  }
+}
