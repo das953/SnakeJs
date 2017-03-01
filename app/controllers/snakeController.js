@@ -45,6 +45,7 @@ module.exports =  {
             document.getElementById('Field').removeChild(food);
 
             snakeHead();
+            document.getElementById('Ssize').innerHTML = ` ${list.getLength()}`;
             return null;
 
 

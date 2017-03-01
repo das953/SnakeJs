@@ -23,6 +23,9 @@ function initialize() {
     document.getElementById('btnStart').addEventListener('click', startGame);
     document.getElementById('btnClear').addEventListener('click', clearField);
 
+    document.getElementById('Fsize').innerHTML = ` ${game.fieldSize} x ${game.fieldSize}`;
+    document.getElementById('Ssize').innerHTML = ` ${snake.list.getLength()}`;
+    document.getElementById('Fcount').innerHTML = (game.fieldSize * game.fieldSize).toString();
 
     let move, food;
 
@@ -86,6 +89,7 @@ function initialize() {
 
             snake = new Snake();
             game.initSnake(snake.list);
+            document.getElementById('Ssize').innerHTML = ` ${snake.list.getLength()}`;
         }
 
 
