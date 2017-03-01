@@ -173,7 +173,9 @@ module.exports =  {
 
                 }
                 else
+                    list._tail.data.style.backgroundImage = `url('../resources/snakeHead-left.jpg')`;
                     return null;
+
             }
 
 
@@ -210,6 +212,7 @@ module.exports =  {
 
                 }
                 else
+                    list._tail.data.style.backgroundImage = `url('../resources/snakeHead-up.jpg')`;
                     return null;
 
                 // alert((tailMarginLeft + 50 < document.getElementById('Field').offsetWidth));
@@ -252,6 +255,7 @@ module.exports =  {
 
                 }
                 else
+                    list._tail.data.style.backgroundImage = `url('../resources/snakeHead-right.jpg')`;
                     return null;
 
 
@@ -292,6 +296,7 @@ module.exports =  {
 
                 }
                 else
+                    list._tail.data.style.backgroundImage = `url('../resources/snakeHead-down.jpg')`;
                     return null;
             }
 

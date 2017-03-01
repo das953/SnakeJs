@@ -3,6 +3,8 @@
  */
 "use strict";
 
+//./node_modules/webpack/bin/webpack.js
+
 
 
 function initialize() {
